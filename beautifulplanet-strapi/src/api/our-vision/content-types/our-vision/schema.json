@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_visions",
+  "info": {
+    "singularName": "our-vision",
+    "pluralName": "our-visions",
+    "displayName": "OurVision",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VisionTitle": {
+      "type": "string"
+    },
+    "VisionContent": {
+      "type": "text"
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "VisionIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

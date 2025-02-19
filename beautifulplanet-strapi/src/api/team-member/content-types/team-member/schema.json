@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "TeamMember"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "uid"
+    },
+    "TeamMemberImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "TeamMemberName": {
+      "type": "string"
+    },
+    "TeamMemberDesignation": {
+      "type": "string"
+    },
+    "LinkedInUrl": {
+      "type": "string"
+    }
+  }
+}

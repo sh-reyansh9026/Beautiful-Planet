@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "uid"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Phone": {
+      "type": "text"
+    },
+    "ContactPageImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImageHeading": {
+      "type": "string"
+    },
+    "ImageSummary": {
+      "type": "text"
+    }
+  }
+}
